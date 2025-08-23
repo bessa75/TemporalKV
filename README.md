@@ -30,3 +30,28 @@ It enables memory-efficient inference for large language models while maintainin
 - **`fast_pytorch_kmeans/`** → Modified GPU K-Means (forked from [fast_pytorch_kmeans](https://github.com/DeMoriarty/fast_pytorch_kmeans)).  
 - **`mses/`** → Mean squared error results as `.npy` arrays.  
 
+## Running the code
+
+```bash
+# Clone the repository
+git clone https://github.com/bessa75/TemporalKV
+cd TemporalKV
+
+# Install dependencies
+conda create -n temp_env python=3.11.13 -y
+conda activate temp_env
+pip install -r requirements.txt
+
+#Unzip custom Transformers library and install it
+unzip transformers.zip
+cd transformers
+pip isntall .
+
+# Collect activations
+Use jobs/job_collect.sh
+
+# Run centroid calibration
+Use jobs/job_centroids_bis.sh
+
+# Evaluate model perplexity/accuracy
+Use jobs/job_test_model2.sh
