@@ -2,7 +2,7 @@
   <img src="images/banner.png" alt="Banner" width="100%">
 </p>
 
-<h1 align="center">⚡ TemporalKV: A Sub-4-bit KV-Cache Compression Framework ⚡</h1>
+<h1 align="center"> TemporalKV: A Sub-4-bit KV-Cache Compression Framework </h1>
 
 <p align="center">
   <b>Lightweight. Efficient. Accurate.</b>  
@@ -10,14 +10,14 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains the implementation of **TemporalKV**, a framework for **sub-4-bit KV-Cache compression**.  
 It enables memory-efficient inference for large language models while maintaining strong accuracy.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - **`write_centroids_bis.py`** → Performs centroid calibration using collected activations.  
 - **`test_model2.py`** → Integrates the compression framework in the LLM pipeline; used for perplexity & accuracy evaluation.  
