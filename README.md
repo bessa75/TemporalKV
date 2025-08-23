@@ -16,3 +16,6 @@ run-fisher2.py : file to collect activations, gradients and statistics such as q
 
 datautils.py : utils file
 
+results.csv : results from our experiments
+
+jobs : .sh files to run experiments
