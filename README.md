@@ -28,7 +28,9 @@ It enables memory-efficient inference for large language models while maintainin
 - **`jobs/`** → Shell scripts to launch experiments.  
 - **`experiment_notebooks/`** → Jupyter notebooks for preliminary experiments.  
 - **`fast_pytorch_kmeans/`** → Modified GPU K-Means (forked from [fast_pytorch_kmeans](https://github.com/DeMoriarty/fast_pytorch_kmeans)).  
-- **`mses/`** → Mean squared error results as `.npy` arrays.  
+- **`mses/`** → Mean squared error results as `.npy` arrays.
+- **`transformers.zip`** → Zipped custom Transformers library  
+
 
 ## Running the code
 
