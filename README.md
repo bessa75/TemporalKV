@@ -23,7 +23,7 @@ It enables memory-efficient inference for large language models while maintainin
 - **`test_model2.py`** → Integrates the compression framework in the LLM pipeline; used for perplexity & accuracy evaluation.  
 - **`cache_utils.py`** → Custom low-precision cache implementation with outlier removal.  
 - **`run-fisher2.py`** → Collects activations, gradients, and statistics (quantiles, normalization constants).  
-- **`datautils.py`** → Utility functions for datasets and loaders. (from KVQuant's repository)
+- **`datautils.py`** → Utility functions for datasets and loaders. (from [KVQuant's repository](https://github.com/SqueezeAILab/KVQuant))
 - **`results.csv`** → Experimental results (accuracy & perplexity).  
 - **`jobs/`** → Shell scripts to launch experiments.  
 - **`experiment_notebooks/`** → Jupyter notebooks for preliminary experiments.  
