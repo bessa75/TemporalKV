@@ -19,3 +19,9 @@ datautils.py : utils file
 results.csv : results from our experiments
 
 jobs : .sh files to run experiments
+
+experiment_notebooks : notebooks used to run preliminary experiments
+
+fast_pytorch_kmeans : modified GPU K-Means implementation (forked from https://github.com/DeMoriarty/fast_pytorch_kmeans)
+
+mses : mean mse results as .npy arrays
