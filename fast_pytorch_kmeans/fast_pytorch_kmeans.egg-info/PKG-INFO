@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: fast_pytorch_kmeans
+Version: 0.2.1
+Summary: a fast kmeans clustering algorithm implemented in pytorch
+Home-page: https://github.com/DeMoriarty/fast_pytorch_kmeans
+Download-URL: https://github.com/DeMoriarty/fast_pytorch_kmeans/archive/v_020.tar.gz
+Author: demoriarty
+Author-email: sahbanjan@gmail.com
+License: MIT
+Keywords: KMeans,K-means,pytorch,machine learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: torch
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
