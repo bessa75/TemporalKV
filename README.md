@@ -2,26 +2,50 @@
   <img src="images/banner.png" alt="Banner" width="100%">
 </p>
 
-# A sub-4-bit KV-Cache compression framework
+<h1 align="center">⚡ TemporalKV: A Sub-4-bit KV-Cache Compression Framework ⚡</h1>
 
-This repository contains the source code for the KV-Cache compression framework TemporalKV :
+<p align="center">
+  <b>Lightweight. Efficient. Accurate.</b>  
+  <br>
+  A framework for compressing KV-Caches in Large Language Models (LLMs) with sub-4-bit precision.
+</p>
 
-write_centroids_bis.py : file to perform centroid calibration using the collected activations
+---
 
-test_model2.py : file integrating the compression framework in the LLM pipeline. It is used to perform perplexity and accuracy measurement experiments
+## 📖 Overview
 
-cache_utils.py : file containing our custom low-precision Cache implementation, along with the outlier removal framework
+This repository contains the implementation of **TemporalKV**, a framework for **sub-4-bit KV-Cache compression**.  
+It enables efficient inference for large language models while maintaining strong accuracy.
 
-run-fisher2.py : file to collect activations, gradients and statistics such as quantiles and normalization constants
+---
 
-datautils.py : utils file
+## 📂 Repository Structure
 
-results.csv : results from our experiments
+- **`write_centroids_bis.py`** → Performs centroid calibration using collected activations.  
+- **`test_model2.py`** → Integrates the compression framework in the LLM pipeline; used for perplexity & accuracy evaluation.  
+- **`cache_utils.py`** → Custom low-precision cache implementation with outlier removal.  
+- **`run-fisher2.py`** → Collects activations, gradients, and statistics (quantiles, normalization constants).  
+- **`datautils.py`** → Utility functions for datasets and loaders.  
+- **`results.csv`** → Experimental results (accuracy & perplexity).  
+- **`jobs/`** → Shell scripts to launch experiments.  
+- **`experiment_notebooks/`** → Jupyter notebooks for preliminary experiments.  
+- **`fast_pytorch_kmeans/`** → Modified GPU K-Means (forked from [fast_pytorch_kmeans](https://github.com/DeMoriarty/fast_pytorch_kmeans)).  
+- **`mses/`** → Mean squared error results as `.npy` arrays.  
 
-jobs : .sh files to run experiments
+---
 
-experiment_notebooks : notebooks used to run preliminary experiments
+## 🚀 Getting Started
 
-fast_pytorch_kmeans : modified GPU K-Means implementation (forked from https://github.com/DeMoriarty/fast_pytorch_kmeans)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/temporal-kv.git
+cd temporal-kv
 
-mses : mean mse results as .npy arrays
+# Install dependencies
+pip install -r requirements.txt
+
+# Run centroid calibration
+python write_centroids_bis.py
+
+# Evaluate model compression
+python test_model2.py
