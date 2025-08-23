@@ -47,7 +47,8 @@ pip install -r requirements.txt
 #Unzip custom Transformers library and install it
 unzip transformers.zip
 cd transformers
-pip isntall .
+pip install .
+cd ..
 
 # Collect activations
 Use jobs/job_collect.sh
