@@ -8,13 +8,13 @@
   <b>Lightweight. Efficient. Accurate.</b>  
 </p>
 ---
+## Informations
+
 **Author:** Your Name  
 **Degree:** Master's Thesis  
 **University:** University of Oxford
 **Year:** 2025
 
-## Abstract
-[Paste your abstract here]
 ---
 
 ## Overview
