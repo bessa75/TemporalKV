@@ -7,11 +7,10 @@
 <p align="center">
   <b>Lightweight. Efficient. Accurate.</b>  
 </p>
----
 
 ## Informations
 
-**Author:** Your Name  
+**Author:** Swann Bessa
 **Degree:** Master's Thesis  
 **University:** University of Oxford
 **Year:** 2025
