@@ -11,8 +11,11 @@
 ## Informations
 
 **Author:** Swann Bessa
-**Degree:** Master's Thesis  
+
+**Degree:** Master's Thesis 
+
 **University:** University of Oxford
+
 **Year:** 2025
 
 ---
